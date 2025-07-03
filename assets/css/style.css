@@ -380,6 +380,73 @@ img {
 
 /* SUBSCRIBE SECTION */
 
+.stepsSect {
+  padding: 60px 0;
+}
+
+.stepsTitleRow h2 {
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 52px;
+  letter-spacing: 0;
+  color: #03403f;
+  max-width: 650px;
+}
+
+.stepsHldr {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-top: 60px;
+  background-image: url(../images/stepsBgShape.png);
+  background-size: 75%;
+  background-repeat: no-repeat;
+  background-position: center 27px;
+  max-width: 1070px;
+  margin: 60px auto 0;
+}
+
+.stepsHldr .steBox:nth-child(2) {
+  margin-top: 130px;
+}
+
+.steBox {
+  text-align: center;
+}
+
+.stepBox_Icon img {
+  width: 100%;
+  max-width: 120px;
+  margin: 0 auto;
+}
+
+.stepBox_Content {
+  margin-top: 40px;
+}
+
+.stepBox_Content h3 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: 0;
+  color: #03403f;
+  margin-bottom: 14px;
+}
+
+.stepBox_Content p {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 32px;
+  letter-spacing: 0;
+  text-align: center;
+  color: #03403f;
+  max-width: 260px;
+  margin: 0 auto;
+  text-wrap: balance;
+}
+/* STEPS SECTION */
+
 .feeedGdrRow {
   border-top: 1px solid #0000004d;
   padding-top: 80px;
@@ -388,8 +455,8 @@ img {
 
 .feedingGuide .headHldr h2 {
   font-weight: 600;
-  font-size: 48px;
-  line-height: 56px;
+  font-size: 44px;
+  line-height: 52px;
   letter-spacing: 0px;
   color: #03403f;
 }
@@ -432,6 +499,40 @@ img {
 }
 
 /* Feeding sec */
+
+.brandsingSect {
+  background: rgb(239 99 11 / 8%);
+  margin-top: 200px;
+}
+
+.brandingLogos ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 20px;
+  row-gap: 10px;
+  flex-wrap: wrap;
+}
+
+.brandingClmnHldr {
+  display: grid;
+  grid-template-columns: 0.7fr 1fr;
+  align-items: center;
+}
+
+.brandingLogos ul li {
+  width: calc(33% - 15px);
+}
+
+.brandingLogos ul li img {
+  width: 100%;
+}
+
+.brandingHeroImg img {
+  width: 100%;
+  margin-top: -200px;
+}
+/* Branding Section */
 
 .CarDbX {
   padding-top: 130px;
