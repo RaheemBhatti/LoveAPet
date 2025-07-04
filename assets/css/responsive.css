@@ -1,0 +1,226 @@
+@media only screen and (max-width: 1025px) {
+  :is(.container, .page-width) {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .bannerMain {
+    padding: 100px 0 50px;
+  }
+
+  .banCnt h1 {
+    font-size: 42px;
+    line-height: 50px;
+    max-width: 850px;
+  }
+
+  .banImg {
+    max-width: 850px;
+    z-index: 1;
+  }
+
+  .banLogo {
+    height: 170px;
+    width: 170px;
+    right: 20px;
+  }
+
+  .banRow {
+    gap: 0;
+  }
+
+  .banDogsLayer {
+    height: 320px;
+    width: 320px;
+    left: -60px;
+    top: 40%;
+  }
+  .banText p {
+    font-size: 24px;
+    max-width: 550px;
+  }
+
+  .imgCntntBxHldr {
+    grid-template-columns: 1.2fr 1fr;
+  }
+
+  .CntntBox_CntntHldr h2 {
+    font-size: 20px;
+    line-height: 22px;
+  }
+
+  .CntntBox_CntntHldr ul.iconContent li img {
+    max-width: 50px;
+  }
+
+  .CntntBox_CntntHldr ul.iconContent li span {
+    font-size: 17px;
+    line-height: 22px;
+  }
+
+  .CntntBox_imgHldr .CntntBox_text {
+    width: 250px;
+    height: 250px;
+    left: -10px;
+    bottom: -90px;
+  }
+
+  .CntntBox_CntntHldr ul.iconContent {
+    margin: 25px 0;
+  }
+  .imgCntntBox {
+    padding-bottom: 110px;
+  }
+
+  .CntntBox_imgHldr .CntntBox_text h3 {
+    font-size: 26px;
+    line-height: 32px;
+  }
+
+  .CntntBox_imgHldr .CntntBox_text p {
+    font-size: 16px;
+    line-height: 22px;
+    text-wrap: balance;
+  }
+
+  .benefitsSect .container-fluid {
+    padding-left: 15px;
+  }
+
+  .CntntBox_CntntHldr {
+    z-index: 1;
+    position: relative;
+  }
+
+  .bnftImgHldr img {
+    max-width: 500px;
+    transform: translateY(-275px);
+  }
+
+  .bnftCntntHldr h2 {
+    font-size: 30px;
+    line-height: 42px;
+    max-width: 550px;
+  }
+
+  .bnftClmnHldr {
+    grid-template-columns: 1.9fr 1fr;
+  }
+
+  .bnftCntntHldr p {
+    font-size: 15px;
+    line-height: 20px;
+    max-width: 600px;
+  }
+
+  .bnftIconBoxesHldr {
+    gap: 30px;
+  }
+
+  .bnftIBIconHldr .bnftIBIcon {
+    width: 70px;
+    height: 70px;
+  }
+
+  .bnftIconBox h3 {
+    font-size: 21px;
+    line-height: 26px;
+  }
+
+  .bnftCntntHldr p {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .benefitsSect {
+    padding-bottom: 80px;
+  }
+  .subsTextHldr h2 {
+    font-size: 30px;
+    line-height: 36px;
+  }
+
+  .subsTextHldr ul li span {
+    font-size: 17px;
+    line-height: 20px;
+  }
+
+  .subsCntntHldr {
+    gap: 20px;
+  }
+
+  .subsSaveImgHldr img {
+    max-width: 250px;
+  }
+
+  .subsHeroImgHldr img {
+    max-width: 340px;
+  }
+
+  .subsTextHldr {
+    max-width: 100%;
+    margin: 0;
+  }
+
+  .stepsTitleRow h2 {
+    font-size: 40px;
+    line-height: 48px;
+    max-width: 600px;
+  }
+
+  .stepBox_Icon img {
+    max-width: 90px;
+  }
+
+  .stepBox_Content {
+    margin-top: 30px;
+  }
+
+  .stepBox_Content h3 {
+    font-size: 26px;
+    line-height: 32px;
+  }
+
+  .stepBox_Content p {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .feedingGuide .headHldr h2 {
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  .feeedBoxMn {
+    padding: 20px;
+  }
+
+  .feedCnt h3 {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .feedImg {
+    bottom: 10px;
+    width: 80px;
+    left: 15px;
+  }
+
+  .feedGdBoxHldr {
+    padding-top: 60px;
+  }
+  .brandingLogos ul li img {
+    max-width: 90%;
+  }
+
+  .brandingClmnHldr {
+    align-items: flex-end;
+  }
+
+  .brandingLogos {
+    padding: 50px 0 50px;
+  }
+
+  .brandsingSect {
+    margin-top: 100px;
+  }
+}
