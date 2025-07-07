@@ -3,6 +3,7 @@
     padding-left: 15px;
     padding-right: 15px;
   }
+
   .bannerMain {
     padding: 100px 0 50px;
   }
@@ -14,26 +15,23 @@
   }
 
   .banImg {
-    max-width: 850px;
+    max-width: 600px;
     z-index: 1;
   }
 
   .banLogo {
     height: 170px;
     width: 170px;
-    right: 20px;
-  }
-
-  .banRow {
-    gap: 0;
+    right: 100px;
   }
 
   .banDogsLayer {
     height: 320px;
     width: 320px;
-    left: -60px;
-    top: 40%;
+    left: 0px;
+    top: 30%;
   }
+
   .banText p {
     font-size: 24px;
     max-width: 550px;
@@ -67,6 +65,7 @@
   .CntntBox_CntntHldr ul.iconContent {
     margin: 25px 0;
   }
+
   .imgCntntBox {
     padding-bottom: 110px;
   }
@@ -132,8 +131,9 @@
   }
 
   .benefitsSect {
-    padding-bottom: 80px;
+    padding: 80px 0;
   }
+
   .subsTextHldr h2 {
     font-size: 30px;
     line-height: 36px;
@@ -146,10 +146,16 @@
 
   .subsCntntHldr {
     gap: 20px;
+    padding: 20px 0;
   }
 
   .subsSaveImgHldr img {
-    max-width: 250px;
+    max-width: 200px;
+  }
+
+  .subsHeroImgHldr {
+    max-width: 300px;
+    left: 55%;
   }
 
   .subsHeroImgHldr img {
@@ -157,7 +163,6 @@
   }
 
   .subsTextHldr {
-    max-width: 100%;
     margin: 0;
   }
 
@@ -191,7 +196,7 @@
   }
 
   .feeedBoxMn {
-    padding: 20px;
+    padding: 20px 10px;
   }
 
   .feedCnt h3 {
@@ -208,6 +213,7 @@
   .feedGdBoxHldr {
     padding-top: 60px;
   }
+
   .brandingLogos ul li img {
     max-width: 90%;
   }
@@ -222,5 +228,607 @@
 
   .brandsingSect {
     margin-top: 100px;
+  }
+
+  .stepsSect {
+    padding: 50px 0;
+  }
+
+  .stepsHldr {
+    margin: 40px auto 0;
+  }
+
+  .feeedGdrRow {
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+
+  .CarDbX {
+    padding-top: 80px;
+    padding-bottom: 60px;
+  }
+
+  .crdBxRow {
+    gap: 20px;
+  }
+
+  .cardBxImg {
+    width: 100%;
+    height: 250px;
+  }
+
+  .crdBxCnt h3 {
+    font-size: 22px;
+  }
+
+  .crdBxCnt p {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width : 768px) {
+  .bannerMain {
+    padding: 80px 0 40px;
+  }
+
+  .banCnt span {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
+  .banCnt h1 {
+    font-size: 34px;
+    line-height: 44px;
+    max-width: 650px;
+  }
+
+  .banRow {
+    gap: 20px;
+  }
+
+  .banImg {
+    max-width: 500px;
+  }
+
+  .banLogo {
+    height: 140px;
+    width: 140px;
+    right: 30px;
+  }
+
+  .banDogsLayer {
+    height: 230px;
+    width: 230px;
+  }
+
+  .banText p {
+    font-size: 20px;
+    max-width: 450px;
+  }
+
+  .imgCntntBxHldr {
+    grid-template-columns: 1fr;
+  }
+
+  .CntntBox_imgHldr {
+    position: relative;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .CntntBox_imgHldr .CntntBox_text {
+    width: 200px;
+    height: 200px;
+    left: 20px;
+    bottom: 0px;
+  }
+
+  .CntntBox_imgHldr .CntntBox_text h3 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .CntntBox_imgHldr .CntntBox_text p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .CntntBox_CntntHldr h2 {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .CntntBox_CntntHldr ul.iconContent {
+    margin: 20px 0;
+    gap: 20px;
+  }
+
+  .CntntBox_CntntHldr ul.iconContent li span {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .CntntBox_CntntHldr ul.iconContent li img {
+    max-width: 40px;
+  }
+
+  .imgCntntBox {
+    padding-bottom: 60px;
+  }
+
+  .benefitsSect {
+    padding: 60px 0 0;
+  }
+
+  .bnftClmnHldr {
+    grid-template-columns: 1fr;
+  }
+
+  .bnftImgHldr {
+    position: relative;
+    top: unset;
+    right: unset;
+  }
+
+  .bnftImgHldr img {
+    position: relative;
+    top: unset;
+    right: unset;
+    max-width: 400px;
+    transform: unset;
+    margin-left: auto;
+    margin-right: 0px;
+  }
+
+  .bnftIconBoxesHldr {
+    gap: 20px;
+  }
+
+  .bnftIconBox h3 {
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 15px;
+  }
+
+  .subsCntntHldr {
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 0;
+  }
+
+  .subsHeroImgHldr {
+    max-width: 300px;
+    left: 55%;
+    position: relative;
+    left: unset;
+    order: 3;
+    transform: unset;
+    grid-column: span 2;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .subsTextHldr h2 {
+    font-size: 26px;
+    line-height: 30px;
+  }
+
+  .subsTextHldr ul li span {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .subsTextHldr ul li img {
+    max-width: 16px;
+  }
+
+  .stepsSect {
+    padding: 40px 0;
+  }
+
+  .stepsHldr {
+    margin: 30px auto 0;
+    gap: 20px;
+  }
+
+  .stepsTitleRow h2 {
+    font-size: 34px;
+    line-height: 40px;
+    max-width: 500px;
+  }
+
+  .stepBox_Icon img {
+    max-width: 75px;
+  }
+
+  .stepBox_Content {
+    margin-top: 20px;
+  }
+
+  .stepBox_Content h3 {
+    font-size: 22px;
+    line-height: 29px;
+  }
+
+  .stepBox_Content p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .stepsHldr .steBox:nth-child(2) {
+    margin-top: 100px;
+  }
+
+  .feeedGdrRow {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .feedingGuide .headHldr h2 {
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  .feedGdBoxHldr {
+    padding-top: 40px;
+  }
+
+  .feedGdBoxHldr {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 70px;
+  }
+
+  .feedGdBoxHldr:not(:has(.feeedBoxMn:nth-child(4))) .feeedBoxMn:nth-child(3) {
+    grid-column: span 2;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .brandsingSect {
+    margin-top: 60px;
+  }
+
+  .brandingClmnHldr {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .brandingLogos {
+    padding: 40px 0 0px;
+  }
+
+  .brandingHeroImg img {
+    width: 100%;
+    margin-top: 0px;
+    max-width: 400px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .brandingLogos ul {
+    column-gap: 15px;
+  }
+
+  .brandingLogos ul li {
+    width: calc(18% - 10px);
+  }
+
+  .CarDbX {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .crdBxRow {
+    gap: 20px;
+    row-gap: 40px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .crdBxRow:not(:has(.cardBx:nth-child(4))) .cardBx:nth-child(3) {
+    grid-column: span 2;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .cardBxImg {
+    width: 100%;
+    height: 220px;
+  }
+
+  .crdBxCnt {
+    padding-top: 15px;
+    padding-left: 15px;
+  }
+
+  .crdBxCnt h3 {
+    font-size: 20px;
+  }
+
+  .crdBxCnt p {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .bannerMain {
+    padding: 60px 0 30px;
+  }
+
+  .banCnt span {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .banCnt h1 {
+    font-size: 28px;
+    line-height: 35px;
+    max-width: 650px;
+  }
+
+  .banRow {
+    gap: 15px;
+  }
+
+  .banLogo {
+    height: 80px;
+    width: 80px;
+    right: 0px;
+  }
+
+  .banDogsLayer {
+    height: 150px;
+    width: 150px;
+    top: 55%;
+  }
+
+  .banText {
+    margin-top: 20px;
+  }
+
+  .banText p {
+    font-size: 18px;
+  }
+
+  .CntntBox_imgHldr {
+    max-width: 100%;
+  }
+
+  .CntntBox_imgHldr .CntntBox_text {
+    height: 150px;
+    width: 150px;
+  }
+
+  .CntntBox_imgHldr .CntntBox_text h3 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .CntntBox_imgHldr .CntntBox_text p {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .CntntBox_CntntHldr h2 {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .CntntBox_CntntHldr ul.iconContent {
+    margin: 15px 0;
+    gap: 15px;
+    grid-template-columns: 1fr;
+  }
+
+  .imgCntntBox {
+    padding-bottom: 40px;
+  }
+
+  .CntntBox_CntntHldr ul.iconContent li img {
+    max-width: 30px;
+  }
+
+  .CntntBox_CntntHldr ul.iconContent li span {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .CntntBox_CntntHldr p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .benefitsSect {
+    padding: 40px 0 0;
+  }
+
+  .bnftCntntHldr h2 {
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 15px;
+  }
+
+  .bnftCntntHldr p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .bnftIconBoxesHldr {
+    gap: 15px;
+    margin-top: 20px;
+    grid-template-columns: 1fr;
+  }
+
+  .bnftIconBox h3 {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+
+  .bnftIBIconHldr .bnftIBIcon {
+    width: 60px;
+    height: 60px;
+  }
+
+  .bnftImgHldr img {
+    max-width: 300px;
+  }
+
+  .subsCntntHldr {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .subsHeroImgHldr {
+    grid-column: span 1;
+    max-width: 250px;
+  }
+
+  .subsTextHldr ul li span {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .subsTextHldr ul li img {
+    max-width: 15px;
+  }
+
+  .subsSaveImgHldr {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .stepsTitleRow h2 {
+    font-size: 26px;
+    line-height: 32px;
+  }
+
+  .stepsHldr {
+    margin: 20px auto 0;
+    gap: 20px;
+    background-image: unset;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .stepsHldr .steBox:nth-child(2) {
+    margin-top: 0px;
+  }
+
+  .stepBox_Icon img {
+    max-width: 60px;
+  }
+
+  .stepBox_Content {
+    margin-top: 15px;
+  }
+
+  .stepBox_Content h3 {
+    font-size: 18px;
+    line-height: 23px;
+    margin-bottom: 10px;
+  }
+
+  .stepBox_Content p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .stepsSect {
+    padding: 30px 0;
+  }
+
+  .feeedGdrRow {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .feedingGuide .headHldr h2 {
+    font-size: 26px;
+    line-height: 31px;
+  }
+
+  .feedGdBoxHldr {
+    grid-template-columns: repeat(1, 1fr);
+    padding-top: 30px;
+    row-gap: 30px;
+  }
+
+  .feedGdBoxHldr:not(:has(.feeedBoxMn:nth-child(4))) .feeedBoxMn:nth-child(3) {
+    grid-column: span 1;
+    width: 100%;
+  }
+
+  .feedImg {
+    bottom: 5px;
+    width: 60px;
+    left: 10px;
+  }
+
+  .brandsingSect {
+    margin-top: 0px;
+  }
+
+  .brandingLogos {
+    padding: 30px 0 0px;
+  }
+
+  .brandingClmnHldr {
+    gap: 20px;
+  }
+
+  .brandingHeroImg img {
+    max-width: 300px;
+  }
+
+  .brandingLogos ul {
+    column-gap: 10px;
+  }
+
+  .brandingLogos ul li img {
+    max-width: 100%;
+  }
+
+  .brandingLogos ul li {
+    width: calc(26% - 10px);
+  }
+
+  .CarDbX {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .crdBxRow {
+    gap: 15px;
+    row-gap: 15px;
+    grid-template-columns: 1fr;
+
+  }
+
+  .crdBxRow:not(:has(.cardBx:nth-child(4))) .cardBx:nth-child(3) {
+    width: 100%;
+    grid-column: span 1;
+  }
+
+  .cardBxImg img {
+    border-radius: 10px;
+  }
+
+  .cardBxImg {
+    height: 200px;
+  }
+
+  .crdBxCnt {
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+
+  .crdBxCnt h3 {
+    font-size: 18px;
+  }
+
+  .crdBxCnt p {
+    font-size: 14px;
+    margin-top: 10px;
   }
 }
