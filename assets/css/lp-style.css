@@ -16,8 +16,8 @@ body {
   max-width: 1330px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
   width: 100%;
 }
 
@@ -98,8 +98,8 @@ img {
 
 .banLogo {
   position: absolute;
-  height: 205px;
-  width: 205px;
+  height: 180px;
+  width: 180px;
   right: 30px;
   top: 40%;
   z-index: 1;
@@ -109,6 +109,7 @@ img {
   height: 100%;
   width: 100%;
   object-fit: contain;
+  transform: rotate(19deg);
 }
 
 .banDogsLayer {
@@ -148,12 +149,12 @@ img {
   display: grid;
   grid-template-columns: 1.3fr 1fr;
   align-items: center;
-  gap: 30px;
+  gap: 25px;
 }
 
 .CntntBox_CntntHldr h2 {
   font-weight: 600;
-  font-size: 23px;
+  font-size: 22px;
   line-height: 26px;
   color: #03403f;
 }
@@ -350,10 +351,10 @@ img {
   position: relative;
 }
 .subsTextHldr {
-  max-width: 350px;
+  max-width: 380px;
 }
 .subsSaveImgHldr {
-    margin-left: auto;
+  margin-left: auto;
 }
 .subsHeroImgHldr {
   max-width: 450px;
@@ -377,6 +378,15 @@ img {
   line-height: 40px;
   color: #ffffff;
   margin-bottom: 10px;
+}
+
+.subsTextHldr p {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  margin-top: 15px;
+  padding-left: 25px;
 }
 
 .subsTextHldr ul li {
@@ -422,7 +432,7 @@ img {
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
   margin-top: 60px;
-  background-image: url(../images/stepsBgShape.png);
+  /* background-image: url(../images/stepsBgShape.png); */
   background-size: 75%;
   background-repeat: no-repeat;
   background-position: center 27px;
