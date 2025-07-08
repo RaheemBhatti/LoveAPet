@@ -196,11 +196,9 @@ img {
 }
 
 .CntntBox_imgHldr .CntntBox_text {
-  background: linear-gradient(
-    127.66deg,
-    rgb(239 99 11 / 90%) -8.71%,
-    rgb(255 176 126 / 90%) 107.98%
-  );
+  background: linear-gradient(127.66deg,
+      rgb(239 99 11 / 90%) -8.71%,
+      rgb(255 176 126 / 90%) 107.98%);
   width: 300px;
   height: 300px;
   border-radius: 50%;
@@ -350,14 +348,17 @@ img {
   padding: 40px 0;
   position: relative;
 }
+
 .subsTextHldr {
   max-width: 380px;
 }
+
 .subsSaveImgHldr {
   margin-left: auto;
 }
+
 .subsHeroImgHldr {
-  max-width: 450px;
+  max-width: 485px;
   position: absolute;
   left: 50%;
   bottom: 0px;
@@ -378,6 +379,7 @@ img {
   line-height: 40px;
   color: #ffffff;
   margin-bottom: 10px;
+  margin-top: 0px;
 }
 
 .subsTextHldr p {
@@ -478,6 +480,7 @@ img {
   margin: 0 auto;
   text-wrap: balance;
 }
+
 /* STEPS SECTION */
 
 .feeedGdrRow {
@@ -529,6 +532,8 @@ img {
   letter-spacing: 0px;
   color: #03403f;
   text-align: right;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 /* Feeding sec */
@@ -566,6 +571,7 @@ img {
   width: 100%;
   margin-top: -200px;
 }
+
 /* Branding Section */
 
 .CarDbX {
@@ -625,3 +631,142 @@ img {
   line-height: 1.3;
   letter-spacing: 0px;
 }
+
+/* Prod card section start */
+
+.ProdCardMain {
+  padding: 120px 0 60px;
+}
+
+.prodCardRow {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 60px;
+}
+
+.prodCardMainBox {
+  position: relative;
+}
+
+.prodCardMainBox::after {
+  content: '';
+  background: #F8F8F8;
+  width: 100%;
+  height: 65%;
+  border-radius: 20px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 12%;
+  z-index: -1;
+}
+
+.prodCarImg {
+  max-width: 341px;
+  max-height: 513px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.prodCarImg img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.prodCardBtn a {
+  font-family: "Mona Sans", sans-serif;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 22px;
+  leading-trim: NONE;
+  line-height: 1;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 20px;
+  border-radius: 100px;
+  background: #03403F;
+  display: block;
+  text-align: center;
+  max-width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.prodCardCnt {
+  max-width: 370px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.prodCardCnt h3 {
+  font-family: "Mona Sans", sans-serif;
+  font-weight: 600;
+  font-style: Medium;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: center;
+  margin-top: 20px;
+  color: #182D55;
+}
+
+.prodCardCnt h3 em {
+  color: #59A675;
+  font-style: normal;
+}
+
+.prodCardCnt p {
+  margin-top: 12px;
+  font-family: "Mona Sans", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #182D55;
+}
+
+.prodCardCnt p em {
+  font-weight: 400;
+}
+
+/* Prod card section end */
+
+/* footerSec css start */
+
+.footerSec {
+  padding: 30px 0;
+  background: #011748;
+}
+
+.footSecRow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.footSecLeft {
+  width: 150px;
+  height: 70px;
+}
+
+.footSecLeft img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.footSecRight p {
+  font-family: "Mona Sans", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #fff;
+}
+
+/* footerSec css end */
