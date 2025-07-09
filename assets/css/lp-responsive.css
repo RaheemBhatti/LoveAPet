@@ -20,9 +20,10 @@
   }
 
   .banLogo {
-    height: 170px;
-    width: 170px;
-    right: 100px;
+    height: 150px;
+    width: 150px;
+    right: 110px;
+    top: 39%;
   }
 
   .banDogsLayer {
@@ -230,6 +231,10 @@
     margin-top: 100px;
   }
 
+  .brandingHeroImg img {
+    margin-top: -130px;
+  }
+
   .stepsSect {
     padding: 50px 0;
   }
@@ -264,9 +269,49 @@
   .crdBxCnt p {
     font-size: 18px;
   }
+
+  .ProdCardMain {
+    padding: 100px 0 50px;
+  }
+
+  .prodCardRow {
+    gap: 30px;
+  }
+
+  .prodCarImg {
+    max-width: 280px;
+  }
+
+  .prodCardBtn a {
+    padding: 17px;
+    font-size: 20px;
+  }
+
+  .prodCardCnt h3 {
+    font-size: 22px;
+    line-height: 26px;
+  }
+
+  .prodCardCnt p {
+    font-size: 20px;
+    line-height: 22px;
+  }
+
+  .footSecLeft {
+    width: 130px;
+    height: 50px;
+  }
+
+  .footerSec {
+    padding: 25px 0;
+  }
+
+  .footSecRight p {
+    font-size: 20px;
+  }
 }
 
-@media only screen and (max-width : 768px) {
+@media only screen and (max-width: 768px) {
   .bannerMain {
     padding: 80px 0 40px;
   }
@@ -291,9 +336,10 @@
   }
 
   .banLogo {
-    height: 140px;
-    width: 140px;
-    right: 30px;
+    height: 100px;
+    width: 100px;
+    right: 70px;
+    top: 42%;
   }
 
   .banDogsLayer {
@@ -486,7 +532,7 @@
   }
 
   .brandsingSect {
-    margin-top: 60px;
+    margin-top: 0px;
   }
 
   .brandingClmnHldr {
@@ -550,20 +596,51 @@
     font-size: 16px;
     margin-top: 10px;
   }
+  .prodCardRow {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .ProdCardMain {
+    padding: 60px 0 30px;
+  }
+
+  .footSecRight p {
+    font-size: 14px;
+  }
+
+  .footSecLeft {
+    width: 110px;
+    height: 40px;
+  }
+
+  .footerSec {
+    padding: 20px 0;
+  }
+  .bnftCntntHldr {
+    padding-right: 15px;
+  }
+  .prodCardBtn a {
+    padding: 14px;
+    font-size: 16px;
+    max-width: 70%;
+  }
 }
 
 @media only screen and (max-width: 575px) {
   .bannerMain {
-    padding: 60px 0 30px;
+    padding: 100px 0 30px;
   }
 
   .banCnt span {
-    font-size: 16px;
+    font-size: 14px;
     margin-bottom: 10px;
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .banCnt h1 {
-    font-size: 28px;
+    font-size: 33px;
     line-height: 35px;
     max-width: 650px;
   }
@@ -573,15 +650,17 @@
   }
 
   .banLogo {
-    height: 80px;
-    width: 80px;
+    height: 70px;
+    width: 70px;
     right: 0px;
+    top: 45%;
   }
 
   .banDogsLayer {
     height: 150px;
     width: 150px;
-    top: 55%;
+    top: 30%;
+    left: -20px;
   }
 
   .banText {
@@ -592,13 +671,28 @@
     font-size: 18px;
   }
 
+  .imgCntntBxHldr {
+    row-gap: 50px;
+  }
+
   .CntntBox_imgHldr {
     max-width: 100%;
   }
 
   .CntntBox_imgHldr .CntntBox_text {
-    height: 150px;
-    width: 150px;
+    height: 160px;
+    width: 160px;
+    left: 0;
+    bottom: -20px;
+  }
+
+  .CntntBox_imgHldr .img {
+    max-width: 85%;
+    margin-left: auto;
+  }
+
+  .CntntBox_imgHldr .CntntBox_text .ContentHldr {
+    max-width: 130px;
   }
 
   .CntntBox_imgHldr .CntntBox_text h3 {
@@ -614,10 +708,17 @@
   .CntntBox_CntntHldr h2 {
     font-size: 16px;
     line-height: 18px;
+    text-align: center;
+    max-width: 250px;
+    margin: 0 auto;
+  }
+  .CntntBox_CntntHldr ul.iconContent li {
+    flex-direction: column;
+    row-gap: 10px;
   }
 
   .CntntBox_CntntHldr ul.iconContent {
-    margin: 15px 0;
+    margin: 15px 0 30px;
     gap: 15px;
     grid-template-columns: 1fr;
   }
@@ -633,11 +734,14 @@
   .CntntBox_CntntHldr ul.iconContent li span {
     font-size: 14px;
     line-height: 18px;
+    max-width: 150px;
+    text-align: center;
   }
 
   .CntntBox_CntntHldr p {
     font-size: 14px;
     line-height: 22px;
+    text-align: center;
   }
 
   .benefitsSect {
@@ -645,20 +749,29 @@
   }
 
   .bnftCntntHldr h2 {
-    font-size: 25px;
-    line-height: 30px;
+    font-size: 20px;
+    line-height: 26px;
     margin-bottom: 15px;
+    text-align: center;
   }
 
   .bnftCntntHldr p {
     font-size: 14px;
     line-height: 18px;
+    text-align: center;
+  }
+
+  .bnftIconBox {
+    grid-template-columns: 1fr;
+    align-items: center;
+    gap: 10px;
   }
 
   .bnftIconBoxesHldr {
-    gap: 15px;
-    margin-top: 20px;
+    gap: 25px;
     grid-template-columns: 1fr;
+    max-width: 250px;
+    margin: 20px auto 0;
   }
 
   .bnftIconBox h3 {
@@ -670,10 +783,26 @@
   .bnftIBIconHldr .bnftIBIcon {
     width: 60px;
     height: 60px;
+    margin: 0 auto;
+  }
+  .bnftIBtext {
+    text-align: center;
   }
 
   .bnftImgHldr img {
     max-width: 300px;
+  }
+
+  .bnftImgHldr {
+    bottom: -90px;
+    margin-top: -130px;
+  }
+
+  .subscribeSect {
+    padding-top: 60px;
+  }
+  .subsTextHldr {
+    text-align: center;
   }
 
   .subsCntntHldr {
@@ -682,7 +811,7 @@
 
   .subsHeroImgHldr {
     grid-column: span 1;
-    max-width: 250px;
+    max-width: 270px;
   }
 
   .subsTextHldr ul li span {
@@ -691,7 +820,7 @@
   }
 
   .subsTextHldr ul li img {
-    max-width: 15px;
+    max-width: 24px;
   }
 
   .subsSaveImgHldr {
@@ -700,8 +829,25 @@
   }
 
   .stepsTitleRow h2 {
-    font-size: 26px;
-    line-height: 32px;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0 auto 30px;
+    text-align: center;
+    max-width: 300px;
+  }
+  .subsTextHldr p {
+    font-size: 11px;
+    padding: 0;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .subsTextHldr ul {
+    max-width: 150px;
+    margin: 0 auto;
+  }
+  .subsTextHldr ul li {
+    flex-direction: column;
+    gap: 10px;
   }
 
   .stepsHldr {
@@ -740,7 +886,7 @@
 
   .feeedGdrRow {
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
   }
 
   .feedingGuide .headHldr h2 {
@@ -760,11 +906,13 @@
   }
 
   .feedImg {
-    bottom: 5px;
+    bottom: 20px;
     width: 60px;
     left: 10px;
   }
-
+  .feedGdBoxHldr .feeedBoxMn:nth-child(3) {
+    margin-top: 20px;
+  }
   .brandsingSect {
     margin-top: 0px;
   }
@@ -802,7 +950,6 @@
     gap: 15px;
     row-gap: 15px;
     grid-template-columns: 1fr;
-
   }
 
   .crdBxRow:not(:has(.cardBx:nth-child(4))) .cardBx:nth-child(3) {
@@ -830,5 +977,63 @@
   .crdBxCnt p {
     font-size: 14px;
     margin-top: 10px;
+  }
+
+  .subsSaveImgHldr img {
+    max-width: 160px;
+  }
+  .prodCardRow {
+    grid-template-columns: repeat(1, 1fr);
+    max-width: 270px;
+    margin: 0 auto;
+    gap: 40px;
+  }
+
+  .CarDbX :is(.container, .page-width) {
+    padding: 0 !important;
+  }
+
+  .prodCarImg {
+    max-width: 200px;
+  }
+
+  .prodCardMainBox:after {
+    height: 57%;
+  }
+
+  .prodCardBtn a {
+    padding: 12px;
+    font-size: 14px;
+    max-width: 85%;
+  }
+
+  .prodCardCnt h3 {
+    font-size: 18px;
+    line-height: 22px;
+    max-width: 240px;
+  }
+
+  .prodCardCnt p {
+    font-size: 15px;
+  }
+
+  .stepsHldr {
+    background-image: none !important;
+  }
+  .CarDbX:after {
+    height: 80%;
+  }
+  body.love-pet .faq-cont h3::after {
+    width: 90px;
+    height: 4px;
+  }
+  .faqs-list h4::before,
+  .faqs-list h4::after {
+    width: 15px;
+    height: 15px;
+    top: 20px;
+  }
+  .faqs-list h4 {
+    font-size: 16px;
   }
 }
